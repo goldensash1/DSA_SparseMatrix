@@ -5,6 +5,9 @@ const { addMatrices, subtractMatrices, multiplyMatrices } = require('./operation
 const readline = require('readline-sync');
 
 // ✅ Build absolute paths to input files
+// const matrixAPath = path.join(__dirname, '../../sample_inputs/matrixA.txt');
+// const matrixBPath = path.join(__dirname, '../../sample_inputs/matrixB.txt');
+
 const matrixAPath = path.join(__dirname, '../../sample_inputs/matrixA.txt');
 const matrixBPath = path.join(__dirname, '../../sample_inputs/matrixB.txt');
 
