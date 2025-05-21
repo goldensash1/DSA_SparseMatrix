@@ -291,10 +291,10 @@ class SparseMatrix {
 function getAvailableMatrices() {
     // Try different relative paths to find sample_inputs directory
     const possiblePaths = [
-        path.join(__dirname, '..', 'sample_inputs'),
+        path.join(__dirname, '../../', 'sample_inputs'),
         path.join(__dirname, 'sample_inputs'),
         path.join(process.cwd(), 'sample_inputs'),
-        path.join(process.cwd(), '..', 'sample_inputs'),
+        path.join(process.cwd(), '../../', 'sample_inputs'),
         './sample_inputs',
         '../sample_inputs'
     ];
