@@ -10,7 +10,6 @@ rows=NUMBER_OF_ROWS
 cols=NUMBER_OF_COLUMNS
 (rowIndex, colIndex, value)
 (rowIndex, colIndex, value)
-…
 ```
 
 Only non-zero entries are listed.
